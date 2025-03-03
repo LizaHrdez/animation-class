@@ -1,0 +1,67 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Centering the buttons in the container */
+body, html {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+
+/* Styling the button container */
+.button-container {
+  display: flex;
+  gap: 20px;
+}
+
+/* Basic button styles */
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.3s ease;  /* Adding transition for all properties */
+}
+
+/* Button 1 styles */
+.button-1 {
+  background-color: #3498db;
+  color: white;
+  border-radius: 5px;
+}
+
+.button-1:hover {
+  background-color: #2980b9;  /* Change background color */
+  transform: scale(1.1);       /* Slightly enlarge the button */
+}
+
+/* Button 2 styles */
+.button-2 {
+  background-color: #2ecc71;
+  color: white;
+  border-radius: 5px;
+}
+
+.button-2:hover {
+  background-color: #27ae60;  /* Change background color */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Add box shadow */
+}
+
+/* Button 3 styles */
+.button-3 {
+  background-color: #e74c3c;
+  color: white;
+  border-radius: 5px;
+}
+
+.button-3:hover {
+  background-color: #c0392b;  /* Change background color */
+  transform: rotate(10deg);    /* Rotate the button */
+}
