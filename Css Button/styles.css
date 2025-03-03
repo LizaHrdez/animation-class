@@ -1,4 +1,4 @@
-/* Basic button styling */
+
 body {
   font-family: Arial, sans-serif;
   display: flex;
@@ -27,12 +27,12 @@ button {
   cursor: pointer;
   background-color: #3498db;
   color: white;
-  transition: all 0.3s ease; /* Apply transition to all properties */
+  transition: all 0.3s ease;
 }
 
 button:hover {
-  transform: scale(1.1); /* Enlarge the button */
-  background-color: #2980b9; /* Darken background */
+  transform: scale(1.1); 
+  background-color: #2980b9; 
 }
 
 /* Individual button styles (optional for variations) */
@@ -51,7 +51,7 @@ button:hover {
 .button-1:hover {
   transform: scale(1.1);
   background-color: #2980b9;
-  border-color: #2980b9; /* Animate border color on hover */
+  border-color: #2980b9; 
 }
 
 .button-2:hover {
